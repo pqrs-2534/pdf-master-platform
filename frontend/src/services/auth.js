@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://pdf-master-platform.onrender.com';
 
 export const authService = {
   register: async (email, username, password) => {
